@@ -16,4 +16,15 @@ __pycache__/
 *.sqlite
 *.log
 *.bak
+deploy.sh
+*.service
 
+# Local automation / agent state
+.agents/
+.claude/
+.codex/
+.cursor/
+
+# Private financial exports
+exports/
+data/

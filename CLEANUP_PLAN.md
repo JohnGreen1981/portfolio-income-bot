@@ -1,9 +1,12 @@
-# Cleanup Plan
+# План очистки
 
-- [ ] Rotate any keys that were present in local working files.
-- [ ] Copy only bot source files, README, requirements and safe deployment examples.
-- [ ] Exclude `.keys`, service account JSON, local `.env`, financial sheets/data, backups and caches.
-- [ ] Replace server paths and personal IDs with placeholders.
-- [ ] Add demo examples with synthetic finance records.
-- [ ] Run secret scan before first GitHub push.
-
+- [ ] Убедиться, что ключи из локальных рабочих файлов ротированы до GitHub-публикации.
+- [x] Перенести только bot source files, README, requirements и безопасные public docs.
+- [x] Исключить `.keys`, service account JSON, local `.env`, финансовые данные, backups, deploy scripts и caches.
+- [x] Заменить реальные клиентские alias на demo clients.
+- [x] Заменить персональные категории на нейтральные demo-категории.
+- [x] Создать безопасный `.env.example`.
+- [x] Добавить публичные `AGENTS.md` / `CLAUDE.md`.
+- [x] Добавить tests/demo examples с синтетическими финансовыми записями.
+- [x] Запустить tests/syntax check (`2 passed`; `python3 -m py_compile` пройден).
+- [x] Запустить проверку на секреты перед первой публикацией в GitHub.
