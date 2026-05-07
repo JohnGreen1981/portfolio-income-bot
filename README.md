@@ -4,6 +4,19 @@ Telegram-бот для учета доходов и расходов: текст
 
 Это очищенная портфельная версия. В репозитории нет production `.env`, `.keys`, Google service account JSON, spreadsheet IDs, финансовых записей, приватных категорий и VPS-доступов.
 
+## Демо
+
+<p align="center">
+  <img src="docs/screenshots/01-voice-income.png" width="45%" alt="Голосовой ввод дохода с распознаванием клиента" />
+  <img src="docs/screenshots/02-receipt-ocr.png" width="45%" alt="Распознавание чека по фото и группировка по категориям" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/03-categories.png" width="45%" alt="Ручная коррекция категории расхода" />
+  <img src="docs/screenshots/04-google-sheets.png" width="45%" alt="Результат: Google Sheets с расходами и курсами валют" />
+</p>
+
+Слева направо, сверху вниз: голосовой ввод дохода и распознавание клиента, OCR чека с разбивкой по категориям, ручная коррекция категории, итоговая таблица в Google Sheets с мультивалютностью.
+
 ## Что показывает проект
 
 - AI parsing свободного финансового ввода.
